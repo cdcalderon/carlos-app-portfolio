@@ -1,6 +1,6 @@
 .portfolio {
     background-color: #000;
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         margin-top: 40px;
     }
     .row {
@@ -9,7 +9,7 @@
         overflow: hidden;
         min-height: 100%;
         padding: 0;
-        @media (max-width:991px) {
+        @media (max-width: 991px) {
             display: block;
             flex-wrap: wrap;
         }
@@ -33,7 +33,7 @@
                     letter-spacing: 10px;
                 }
             }
-            @media (max-width:991px) {
+            @media (max-width: 991px) {
                 height: 100px;
                 width: 100%;
                 .baffle_text {
@@ -74,13 +74,13 @@
                             justify-content: center;
                             align-items: center;
                             height: 100%;
-                            transition: .5s;
+                            transition: 0.5s;
                             position: absolute;
                             top: 10%;
                             left: 10%;
                             height: 80%;
                             width: 80%;
-                            background-color: #eb83f8;
+                            background-color: #51305541;
                             opacity: 0;
                             span {
                                 z-index: 100;
@@ -99,7 +99,7 @@
                 display: flex;
                 position: absolute;
                 top: 8%;
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     top: 28%;
                 }
                 @media (max-width: 991px) {
@@ -124,7 +124,7 @@
                         cursor: pointer;
                         padding-bottom: 2px;
                         &:after {
-                            content: '';
+                            content: "";
                             position: absolute;
                             height: 2px;
                             width: 100%;
@@ -132,13 +132,14 @@
                             bottom: 0;
                             visibility: hidden;
                             background-color: #eb83f8;
-                            -webkit-transition: all .1s ease;
-                            transition: all 0.3s ease;  
+                            -webkit-transition: all 0.1s ease;
+                            transition: all 0.3s ease;
                             -webkit-transform: scaleX(0);
                             -ms-transform: scaleX(0);
                             transform: scaleX(0);
                         }
-                        &:hover, &.active {
+                        &:hover,
+                        &.active {
                             &:after {
                                 visibility: visible;
                                 -webkit-transform: scaleX(1);

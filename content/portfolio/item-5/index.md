@@ -1,6 +1,6 @@
 ---
-id: 5
-image: './image.jpg'
-title: "UI Deisgn for Company"
-category: "UI/UX Design"
+id: 4
+image: "./image.jpg"
+title: "Solidity, Hardhat, NextJs, TheGraph"
+category: "Blockchain - NFT"
 ---

@@ -1,6 +1,6 @@
 ---
 id: 3
-image: './image.jpg'
-title: "Angular Project"
-category: "Angular.js"
+image: "./image1.jpg"
+title: "Solidity, Hardhat, Angular, Ngrx"
+category: "Blockchain - Defi - cont"
 ---
